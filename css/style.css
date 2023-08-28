@@ -1,0 +1,343 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+*{
+  margin: 0;
+ padding: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(15, 15, 10, 0.87);
+}
+/*menu de inicio*/
+.header{
+  
+  display: flex;
+  align-items: auto;
+  justify-content: space-between;
+  background-color: rgb(250, 80, 1);
+  flex-wrap: wrap;
+  padding: 2rem;
+  
+}
+.navbar{
+  width: 90%;
+}
+.navbar ul{
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  justify-content: flex-end
+}
+.navbar ul li{
+  justify-content: space-between;
+  display: flex;
+}
+   .navbar ul li a {
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 35px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+    
+  }
+  /*logo*/
+  .header h1{
+    width:10%;
+    font-size:relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    color: rgb(0, 0, 0);
+  }
+ 
+    
+  #main article h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+    padding: 15px;
+    
+    
+  }
+  #main article h3{
+    text-align: center;
+    color: aliceblue;
+    padding: 33px;
+    
+  }
+ 
+  
+  .img img{
+    align-content: center;
+    width: 40%;
+    margin-left: 31%;
+    padding: 10px;
+
+  }
+   /*footer*/
+  .pie{
+    align-items: center;
+    background-color: rgb(250, 80, 1);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  .pie p{
+    margin-left: 40px;
+    font-size: 15px;
+  }
+
+  /*estilos de css para blog.html*/
+
+  
+  *
+  {
+    padding: 0;
+    margin: 0;
+  }
+  .header2{
+     
+  display: flex;
+  align-items: auto;
+  justify-content: space-between;
+  background-color: rgb(250, 80, 1);
+  flex-wrap: wrap;
+  padding: 2rem;
+  }
+  .nav2 ul{
+      text-decoration: none;
+      justify-content: space-between;
+      display: flex;
+      justify-content: flex-end
+    }
+    .header2 p{
+      width:10%;
+      font-size:40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      text-align: center;
+
+    }
+    .nav2{
+      width: 90%;
+    }
+    .nav2 ul li{
+      justify-content: space-between;
+      display: flex;
+    }
+    .nav2 ul li a {
+      font-size: 20px;
+      color: #000000;
+      text-decoration: none;
+      font-weight: 35px;
+      margin-left: 35px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-right: 20px;
+    }
+    .articulo img{
+        align-content: center;
+        width: 40%;
+        margin-left: 11%;
+        padding: 10px;
+    }
+    .articulo{
+      text-align: center;
+    color: aliceblue;
+    padding: 33px;
+    }
+    .articulo p{
+      text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+    
+    }
+    main h1{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 70px;
+      padding: 15px;
+    }
+      /*footer*/
+  .pie2{
+    align-items: center;
+    background-color: rgb(250, 80, 1);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+  .pie2 p{
+    margin-left: 40px;
+    font-size: 20px;
+  }
+
+  /*css de Sobre Mi*/
+
+  .header3{
+     
+    display: flex;
+    align-items: auto;
+    justify-content: space-between;
+    background-color: rgb(250, 80, 1);
+    flex-wrap: wrap;
+    padding: 2rem;
+    }
+    .nav3 ul{
+        text-decoration: none;
+        justify-content: space-between;
+        display: flex;
+        justify-content: flex-end
+      }
+      .header3 p{
+        width:10%;
+        font-size:40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        text-align: center;
+  
+      }
+      .nav3{
+        width: 90%;
+      }
+      .nav3 ul li{
+        justify-content: space-between;
+        display: flex;
+      }
+      .nav3 ul li a {
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+        font-weight: 35px;
+        margin-left: 35px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-right: 20px;
+      }
+      main{
+        text-align: center;
+      color: aliceblue;
+      padding: 33px;
+      }
+      main p{
+        text-align: center;
+      color: aliceblue;
+      font-size: 20px;
+      margin-top: 20%;
+      padding: 0;
+      
+      }
+      main h1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 70px;
+        padding: 0;
+        margin-top: 0;
+      }
+          /*footer*/
+  .pie3{
+    align-items: center;
+    background-color: rgb(250, 80, 1);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30%;
+
+
+  }
+  .pie3 p{
+    margin-left: 40px;
+    font-size: 20px;
+  }
+
+
+
+  /*css de contacto*/
+
+.header4{
+    display: flex;
+    align-items: auto;
+    justify-content: space-between;
+    background-color: rgb(250, 80, 1);
+    flex-wrap: wrap;
+    padding: 2rem;
+    }
+    .navbar4 ul{
+      text-decoration: none;
+      justify-content: space-between;
+      display: flex;
+      justify-content: flex-end
+    }
+    .header4 p{
+      width:10%;
+      font-size:70px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+      text-align: center;
+
+    }
+    .navbar4{
+      width: 80%;
+      
+    }
+    .navbar4 ul li{
+      justify-content: space-between;
+      display: flex;
+    }
+    .navbar4 ul li a {
+      font-size: 20px;
+      color: #000000;
+      text-decoration: none;
+      font-weight: 35px;
+      margin-left: 35px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-right: 20px;
+    }
+    .formulario{
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 55px;
+      box-shadow: 0 0 20px (0,0,0,0.2);
+      border-radius: 20px;
+      text-align: center;
+      width: 390px;
+    }
+    
+    /*footer*/
+  .pie4{
+    align-items: center;
+    background-color: rgb(250, 80, 1);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30%;
+  }
+
+    .pie4 p{
+      margin-left: 40px;
+      font-size: 20px;
+    }
