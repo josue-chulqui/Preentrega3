@@ -332,9 +332,9 @@ body{
     background-color: rgb(250, 80, 1);
     display: flex;
     justify-content: center;
-    display: flex;
     flex-wrap: wrap;
     margin-top: 30%;
+    
   }
 
     .pie4 p{
