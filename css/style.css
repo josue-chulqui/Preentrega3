@@ -20,14 +20,19 @@ body{
   padding: 2rem;
   
 }
-.navbar{
-  width: 90%;
-}
 .navbar ul{
   text-decoration: none;
   justify-content: space-between;
   display: flex;
   justify-content: flex-end
+}
+.navbar ul li a:hover{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+
 }
 .navbar ul li{
   justify-content: space-between;
@@ -123,7 +128,7 @@ body{
     }
 
 
-    
+
   /*css de Sobre Mi*/
       main{
         text-align: center;
