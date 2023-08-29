@@ -4,7 +4,7 @@
   margin: 0;
  padding: 0;
   font-family: 'Oswald', sans-serif;
-  box-sizing: border-box;
+ 
 }
 body{
   background-color: rgba(15, 15, 10, 0.87);
@@ -26,6 +26,21 @@ body{
   display: flex;
   justify-content: flex-end
 }
+.navbar ul li{
+  justify-content: space-between;
+  display: flex;
+}
+.navbar ul li a {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 35px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-right: 20px;
+  
+}
 .navbar ul li a:hover{
   background-color: black;
   color: white;
@@ -34,33 +49,20 @@ body{
   text-align: center;
 
 }
-.navbar ul li{
-  justify-content: space-between;
-  display: flex;
-}
-   .navbar ul li a {
-    font-size: 20px;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 35px;
-    margin-left: 35px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-right: 20px;
-    
+
+ 
+  .img{
+    width: 50 px;
   }
   /*logo*/
-  .header h1{
-    width:10%;
-    font-size:relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    color: rgb(0, 0, 0);
+
+
+   .logo img{
+    width: 90px;
   }
  
     
-  #main article h1{
+  .main article h1{
     text-align: center;
     color: aliceblue;
     font-size: 70px;
@@ -68,21 +70,13 @@ body{
     
     
   }
-  #main article h3{
+  .main article h3{
     text-align: center;
     color: aliceblue;
     padding: 33px;
     
   }
  
-  
-  .img img{
-    align-content: center;
-    width: 40%;
-    margin-left: 31%;
-    padding: 10px;
-
-  }
    /*footer*/
   .pie{
     align-items: center;
@@ -101,13 +95,6 @@ body{
 
   /*estilos de css para blog.html*/
 
-
-    .articulo img{
-        align-content: center;
-        width: 40%;
-        margin-left: 11%;
-        padding: 10px;
-    }
     .articulo{
       text-align: center;
     color: aliceblue;
@@ -120,39 +107,7 @@ body{
     padding: 20px;
     
     }
-    main h1{
-      text-align: center;
-      color: rgb(255, 255, 255);
-      font-size: 70px;
-      padding: 15px;
-    }
-
-
-
-  /*css de Sobre Mi*/
-      main{
-        text-align: center;
-      color: aliceblue;
-      padding: 33px;
-      }
-      main p{
-        text-align: center;
-      color: aliceblue;
-      font-size: 20px;
-      margin-top: 20%;
-      padding: 0;
-      
-      }
-      main h1{
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size: 70px;
-        padding: 0;
-        margin-top: 0;
-      }
-     
-
-
+   
   /*css de contacto*/
 
   .formulario{
