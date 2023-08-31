@@ -138,5 +138,63 @@ body{
       text-align: center;
       width: 390px;
     }
+
+
+    /* movile last = celulares a lo ultimo*/
+
+    @media (max-width: 550px){
+       *{
+        margin: 0;
+        padding: 0;
+        
+       
+       }
+       body{
+        background-color: rgb(140, 148, 148);
+       }
+       h1{
+        text-align: center;
+       }
+      .header{
+        background-color: rgb(250, 80, 1);
+        display:flex;
+        display:block; 
+        width: 100%;
+    }
+    .logo{
+      width: 50%;
+    }
+    .logo img{
+      width: 100wv;
+    }
+
+    .navbar ul{
+      width: 100%;
+    
+    }
+    .navbar ul li{
+     width: 50%;
+    }
+    .navbar ul li a{
+      width:100wv;
+    }
+    .grid{
+      width: 100%;
+    }
+
+    .grid img{
+      width: 100%;
+    }
+    .grilla h3{
+      text-align: center;
+    }
+    .grilla{
+      width: 100%;
+    }
+    .pie{
+      width: 100%;
+      justify-content: center;
+    }
+    }
     
    
